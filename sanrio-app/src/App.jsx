@@ -12,16 +12,48 @@ function hashUsernameToIndex(username, maxId) {
 function App() {
   const [username, setUsername] = useState("");
   const [assignedCharacter, setAssignedCharacter] = useState(null);
+  const [loading, setLoading] = useState(false);
   const characters = sanrioData.characters || sanrioData.scenario.characters;
-  
+
   const handleAssign = () => {
     if (!username.trim()) return;
-    const id = hashUsernameToIndex(username.trim(), characters.length);
-    setAssignedCharacter(characters[id]);
+    setLoading(true);
+    setAssignedCharacter(null); // Clear previous result
+    setTimeout(() => {
+      const id = hashUsernameToIndex(username.trim(), characters.length);
+      setAssignedCharacter(characters[id]);
+      setLoading(false);
+    }, 3000);
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-300 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-300 flex items-center justify-center relative overflow-hidden">
+      <style>
+        {`
+          @keyframes float {
+            0% {
+              opacity: 0;
+              transform: translateY(0) scale(1);
+            }
+            50% {
+              opacity: 1;
+              transform: translateY(-50px) scale(1.2);
+            }
+            100% {
+              opacity: 0;
+              transform: translateY(-100px) scale(0.8);
+            }
+          }
+          .floating-heart {
+            position: absolute;
+            color: #f472b6;
+            animation: float 3s ease-in-out infinite;
+            font-size: 1.5rem;
+            opacity: 0;
+          }
+        `}
+      </style>
+
       <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-xl text-center">
         <h1 className="text-3xl font-bold mb-6 text-pink-700">
           Sanrio Character Matcher
@@ -43,7 +75,25 @@ function App() {
           </button>
         </div>
 
-        {assignedCharacter ? (
+        {loading ? (
+          <div className="relative mt-6 h-48 flex flex-col items-center justify-center">
+            <p className="text-pink-600 text-xl mb-4">
+              Matching you with a Sanrio character...
+            </p>
+            {[...Array(6)].map((_, i) => (
+              <span
+                key={i}
+                className="floating-heart"
+                style={{
+                  left: `${10 + i * 12}%`,
+                  animationDelay: `${i * 0.3}s`,
+                }}
+              >
+                ❤️
+              </span>
+            ))}
+          </div>
+        ) : assignedCharacter ? (
           <div className="mt-6">
             <h2 className="text-2xl font-semibold text-gray-700 mb-2">
               Hello{" "}
@@ -83,4 +133,5 @@ function App() {
 }
 
 export default App;
+
 

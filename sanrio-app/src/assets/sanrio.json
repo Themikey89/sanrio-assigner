@@ -6,67 +6,67 @@
       {
         "name": "Badtz-Maru",
         "description": "A mischievous little penguin with a spiky hairdo and a bit of an attitude.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/7/75/Sanrio_Characters_Badtz-Maru_Image009.gif/revision/latest?cb=20100814054828"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Badtz-Maru.png?raw=true"
       },
       {
         "name": "Charmmy Kitty",
         "description": "Hello Kitty's pet cat, who is as sweet and well-mannered as her owner.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/b/b9/Sanrio_Characters_Charmmy_Kitty_Image010.gif/revision/latest?cb=20100814040700"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Charmmy_Kitty.png?raw=true"
       },
       {
         "name": "Chococat",
         "description": "A curious black cat with a love for technology and a keen sense of curiosity.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/8/8d/Sanrio_Characters_Chococat_Image008.jpg/revision/latest?cb=20100814054405"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Chococat.png?raw=true"
       },
       {
         "name": "Cinnamoroll",
         "description": "A shy but friendly puppy with long ears that help him fly.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/a/a8/Sanrio_Characters_Cinnamoroll_Image010.jpg/revision/latest?cb=20100814055119"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Cinnamoroll.png?raw=true"
       },
       {
         "name": "Dear Daniel",
         "description": "Hello Kitty’s childhood friend and kind-hearted companion from London.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/1/1f/Sanrio_Characters_Dear_Daniel_Image007.jpg/revision/latest?cb=20100814055742"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Dear_Daniel.png?raw=true"
       },
       {
         "name": "Hello Kitty",
         "description": "A cheerful and kind-hearted girl who loves baking cookies and making new friends.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/d/d9/Sanrio_Characters_Hello_Kitty_Image033.jpg/revision/latest?cb=20130722113844"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Hello_Kitty.png?raw=true"
       },
       {
         "name": "Ruby (Jewelpet)",
         "description": "A cheerful and energetic white rabbit Jewelpet who specializes in magic.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/b/bc/Sanrio_Characters_Ruby_%28Jewelpet%29_Image001.png/revision/latest?cb=20130814151133"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Ruby_(Jewelpet).png?raw=true"
       },
       {
         "name": "Keroppi",
         "description": "An energetic frog who loves adventure and playing games with friends.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/3/38/Sanrio_Characters_Keroppi_Image009.gif/revision/latest?cb=20100814042534"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Keroppi.png?raw=true"
       },
       {
         "name": "Kuromi",
         "description": "A punky girl with a mischievous personality and a black jester's hat.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/b/bc/Sanrio_Characters_Kuromi_Image018.gif/revision/latest?cb=20100814040029"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Kuromi_Image.png?raw=true"
       },
       {
         "name": "Mimmy",
         "description": "Hello Kitty’s twin sister who wears a yellow bow.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/c/c5/Sanrio_Characters_Mimmy_Image002.gif/revision/latest?cb=20120213175454"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Mimmy.png?raw=true"
       },
       {
         "name": "My Melody",
         "description": "A sweet-natured girl who always wears a red or pink hood that covers her ears.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/6/6e/Sanrio_Characters_My_Melody_Image033.gif/revision/latest?cb=20120311041735"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/My_Melody.png?raw=true"
       },
       {
         "name": "Pochacco",
         "description": "A sporty and playful dog who loves basketball and going on walks.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/7/75/Sanrio_Characters_Pochacco--Piyo--Pico--Peebu_Image001.jpg/revision/latest?cb=20100818215137"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Pochacco.png?raw=true"
       },
       {
         "name": "Pompompurin",
         "description": "A laid-back golden retriever who loves wearing his brown beret and eating pudding.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/5/5e/Sanrio_Characters_Pompompurin_Image009.gif/revision/latest?cb=20100814044557"
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Pompompurin.png?raw=true"
       }
     ]
   }
