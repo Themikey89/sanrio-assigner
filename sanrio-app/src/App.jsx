@@ -1,23 +1,23 @@
 import { useState } from "react";
-import DataFile from "./assets/data_file";  // Ensure this is the correct path to your DataFile.js
+import sanrioData from "./assets/sanrio.json"; // import the JSON directly
 
-// Hash function to map username to character index
-function hashUsernameToIndex(username, max) {
+function hashUsernameToIndex(username, maxId) {
   let hash = 0;
   for (let i = 0; i < username.length; i++) {
     hash = username.charCodeAt(i) + ((hash << 5) - hash);
   }
-  return Math.abs(hash) % max;
+  return Math.abs(hash) % maxId;
 }
 
-export default function App() {
-  const [username, setUsername] = useState("");  // To store the username
-  const [assigned, setAssigned] = useState(null);  // To store the assigned character
-
+function App() {
+  const [username, setUsername] = useState("");
+  const [assignedCharacter, setAssignedCharacter] = useState(null);
+  const characters = sanrioData.characters || sanrioData.scenario.characters;
+  
   const handleAssign = () => {
-    if (!username.trim()) return;  // Avoid processing empty usernames
-    const idx = hashUsernameToIndex(username.trim(), DataFile.all.length);  // Get character index
-    setAssigned(DataFile.all[idx]);  // Assign character based on hash
+    if (!username.trim()) return;
+    const id = hashUsernameToIndex(username.trim(), characters.length);
+    setAssignedCharacter(characters[id]);
   };
 
   return (
@@ -32,42 +32,55 @@ export default function App() {
             type="text"
             placeholder="Enter your username"
             value={username}
-            onChange={e => setUsername(e.target.value)}  // Update username state on input change
+            onChange={(e) => setUsername(e.target.value)}
             className="border border-gray-300 rounded-lg px-4 py-2 w-64 text-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
           />
           <button
-            onClick={handleAssign}  // Trigger the assign function
+            onClick={handleAssign}
             className="bg-pink-500 hover:bg-pink-600 text-white rounded-lg px-4 py-2 text-lg transition"
           >
             Assign Character
           </button>
         </div>
 
-        {assigned ? (
+        {assignedCharacter ? (
           <div className="mt-6">
             <h2 className="text-2xl font-semibold text-gray-700 mb-2">
-              Hello <span className="text-pink-700">{username}</span>, your Sanrio character is:
+              Hello{" "}
+              <span className="text-pink-700">{username}</span>, your Sanrio
+              character is:
             </h2>
 
+            {/* Debug log */}
+            {console.log("Character image URL:", assignedCharacter.image)}
+
             <img
-              src={assigned.picUrl}  // Display character image
-              alt={assigned.nameEn}  // Alt text for accessibility
+              src={assignedCharacter.image}
+              alt={assignedCharacter.name}
               className="w-48 mx-auto my-4 object-contain"
-              onError={e => {
-                e.currentTarget.src = "https://via.placeholder.com/150?text=No+Image";  // Fallback image if there's an error loading the character image
+              onError={(e) => {
+                console.error("❌ image failed to load:", assignedCharacter.image);
+                e.currentTarget.src =
+                  "https://via.placeholder.com/150?text=Image+Unavailable";
               }}
             />
 
             <h3 className="text-xl font-bold text-gray-800 mb-1">
-              {assigned.nameEn}  // Display character's English name
+              {assignedCharacter.name}
             </h3>
+            <p className="italic text-gray-500">
+              {assignedCharacter.description}
+            </p>
           </div>
         ) : (
           <p className="text-red-500 mt-4">
-            No character assigned yet. Enter a username and click “Assign Character.”
+            No character found for that username. Try another one!
           </p>
         )}
       </div>
     </div>
   );
 }
+
+export default App;
+
