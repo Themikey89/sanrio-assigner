@@ -1,0 +1,58 @@
+{
+  "scenario": {
+    "title": "Sanrio Characters Collection",
+    "description": "A curated list of beloved Sanrio characters with their descriptions and images.",
+    "characters": [
+      {
+        "name": "Hello Kitty",
+        "description": "A cheerful and kind-hearted girl who loves baking cookies and making new friends.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/0/0b/Hello_Kitty_2020.png"
+      },
+      {
+        "name": "My Melody",
+        "description": "A sweet-natured girl who always wears a red or pink hood that covers her ears.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/9/9e/My_Melody_2020.png"
+      },
+      {
+        "name": "Cinnamoroll",
+        "description": "A shy but friendly puppy with big ears that enable him to fly.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/0/0b/Cinnamoroll_2020.png"
+      },
+      {
+        "name": "Badtz-Maru",
+        "description": "A mischievous little penguin with a spiky hairdo and a bit of an attitude.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/3/3f/Badtz-Maru_2020.png"
+      },
+      {
+        "name": "Keroppi",
+        "description": "An energetic frog who loves adventure and playing games with friends.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/5/5e/Keroppi_2020.png"
+      },
+      {
+        "name": "Chococat",
+        "description": "A curious black cat with a keen sense of curiosity and a love for technology.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/2/2f/Chococat_2020.png"
+      },
+      {
+        "name": "Pompompurin",
+        "description": "A laid-back golden retriever who loves wearing his brown beret and eating pudding.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/8/8e/Pompompurin_2020.png"
+      },
+      {
+        "name": "Kuromi",
+        "description": "A punky girl with a mischievous personality and a black jester's hat.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/7/7e/Kuromi_2020.png"
+      },
+      {
+        "name": "Little Twin Stars",
+        "description": "Kiki and Lala are twin stars who traveled to Earth to learn how to be the best, shiniest stars they can be.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/1/1f/Little_Twin_Stars_2020.png"
+      },
+      {
+        "name": "Pochacco",
+        "description": "A sporty and playful dog who loves basketball and going on walks.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/4/4e/Pochacco_2020.png"
+      }
+    ]
+  }
+}
