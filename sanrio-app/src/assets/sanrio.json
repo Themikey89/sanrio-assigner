@@ -1,57 +1,72 @@
 {
   "scenario": {
-    "title": "Sanrio Characters Collection",
-    "description": "A curated list of beloved Sanrio characters with their descriptions and images.",
+    "title": "Sanrio Characters Collection (Extended)",
+    "description": "An extended list of Sanrio characters with images sourced from the Hello Kitty Fandom Wiki.",
     "characters": [
-      {
-        "name": "Hello Kitty",
-        "description": "A cheerful and kind-hearted girl who loves baking cookies and making new friends.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/0/0b/Hello_Kitty_2020.png"
-      },
-      {
-        "name": "My Melody",
-        "description": "A sweet-natured girl who always wears a red or pink hood that covers her ears.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/9/9e/My_Melody_2020.png"
-      },
-      {
-        "name": "Cinnamoroll",
-        "description": "A shy but friendly puppy with big ears that enable him to fly.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/0/0b/Cinnamoroll_2020.png"
-      },
       {
         "name": "Badtz-Maru",
         "description": "A mischievous little penguin with a spiky hairdo and a bit of an attitude.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/3/3f/Badtz-Maru_2020.png"
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/7/75/Sanrio_Characters_Badtz-Maru_Image009.gif/revision/latest?cb=20100814054828"
+      },
+      {
+        "name": "Charmmy Kitty",
+        "description": "Hello Kitty's pet cat, who is as sweet and well-mannered as her owner.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/b/b9/Sanrio_Characters_Charmmy_Kitty_Image010.gif/revision/latest?cb=20100814040700"
+      },
+      {
+        "name": "Chococat",
+        "description": "A curious black cat with a love for technology and a keen sense of curiosity.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/8/8d/Sanrio_Characters_Chococat_Image008.jpg/revision/latest?cb=20100814054405"
+      },
+      {
+        "name": "Cinnamoroll",
+        "description": "A shy but friendly puppy with long ears that help him fly.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/a/a8/Sanrio_Characters_Cinnamoroll_Image010.jpg/revision/latest?cb=20100814055119"
+      },
+      {
+        "name": "Dear Daniel",
+        "description": "Hello Kitty’s childhood friend and kind-hearted companion from London.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/1/1f/Sanrio_Characters_Dear_Daniel_Image007.jpg/revision/latest?cb=20100814055742"
+      },
+      {
+        "name": "Hello Kitty",
+        "description": "A cheerful and kind-hearted girl who loves baking cookies and making new friends.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/d/d9/Sanrio_Characters_Hello_Kitty_Image033.jpg/revision/latest?cb=20130722113844"
+      },
+      {
+        "name": "Ruby (Jewelpet)",
+        "description": "A cheerful and energetic white rabbit Jewelpet who specializes in magic.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/b/bc/Sanrio_Characters_Ruby_%28Jewelpet%29_Image001.png/revision/latest?cb=20130814151133"
       },
       {
         "name": "Keroppi",
         "description": "An energetic frog who loves adventure and playing games with friends.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/5/5e/Keroppi_2020.png"
-      },
-      {
-        "name": "Chococat",
-        "description": "A curious black cat with a keen sense of curiosity and a love for technology.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/2/2f/Chococat_2020.png"
-      },
-      {
-        "name": "Pompompurin",
-        "description": "A laid-back golden retriever who loves wearing his brown beret and eating pudding.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/8/8e/Pompompurin_2020.png"
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/3/38/Sanrio_Characters_Keroppi_Image009.gif/revision/latest?cb=20100814042534"
       },
       {
         "name": "Kuromi",
         "description": "A punky girl with a mischievous personality and a black jester's hat.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/7/7e/Kuromi_2020.png"
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/b/bc/Sanrio_Characters_Kuromi_Image018.gif/revision/latest?cb=20100814040029"
       },
       {
-        "name": "Little Twin Stars",
-        "description": "Kiki and Lala are twin stars who traveled to Earth to learn how to be the best, shiniest stars they can be.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/1/1f/Little_Twin_Stars_2020.png"
+        "name": "Mimmy",
+        "description": "Hello Kitty’s twin sister who wears a yellow bow.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/c/c5/Sanrio_Characters_Mimmy_Image002.gif/revision/latest?cb=20120213175454"
+      },
+      {
+        "name": "My Melody",
+        "description": "A sweet-natured girl who always wears a red or pink hood that covers her ears.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/6/6e/Sanrio_Characters_My_Melody_Image033.gif/revision/latest?cb=20120311041735"
       },
       {
         "name": "Pochacco",
         "description": "A sporty and playful dog who loves basketball and going on walks.",
-        "image": "https://static.wikia.nocookie.net/hellokitty/images/4/4e/Pochacco_2020.png"
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/7/75/Sanrio_Characters_Pochacco--Piyo--Pico--Peebu_Image001.jpg/revision/latest?cb=20100818215137"
+      },
+      {
+        "name": "Pompompurin",
+        "description": "A laid-back golden retriever who loves wearing his brown beret and eating pudding.",
+        "image": "https://static.wikia.nocookie.net/hellokitty/images/5/5e/Sanrio_Characters_Pompompurin_Image009.gif/revision/latest?cb=20100814044557"
       }
     ]
   }
