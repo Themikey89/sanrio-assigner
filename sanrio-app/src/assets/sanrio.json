@@ -74,6 +74,11 @@
         "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Pompompurin.png?raw=true"
       },
       {
+        "name": "Hangyodon",
+        "description": "A fish-like creature who dreams of being a hero, though things don’t always go his way.",
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Hangyodon.png?raw=true"
+      },      
+      {
         "name": "Mocha",
         "description": "The stylish and caring leader of the Cinnamoangels, known for her fashionable taste and charm.",
         "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Mocha.png?raw=true"
