@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 to-pink-300 flex items-center justify-center relative overflow-hidden">
+      {/* Cloud & Heart Styles */}
       <style>
         {`
           @keyframes float {
@@ -44,6 +45,12 @@ function App() {
               transform: translateY(-100px) scale(0.8);
             }
           }
+
+          @keyframes cloudMove {
+            0% { transform: translateX(-200px); }
+            100% { transform: translateX(100vw); }
+          }
+
           .floating-heart {
             position: absolute;
             color: #f472b6;
@@ -51,10 +58,36 @@ function App() {
             font-size: 1.5rem;
             opacity: 0;
           }
+
+          .animate-cloud {
+            animation: cloudMove 60s linear infinite;
+            position: absolute;
+            color: white;
+            opacity: 0.7;
+            font-size: 2.5rem;
+          }
         `}
       </style>
 
-      <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-xl text-center">
+      {/* Floating SVG Clouds */}
+      <div className="absolute w-full h-full top-0 left-0 overflow-hidden z-0">
+        {[...Array(3)].map((_, i) => (
+          <div
+            key={i}
+            className="animate-cloud"
+            style={{
+              top: `${10 + i * 20}%`,
+              left: `${-200 + i * 100}px`,
+              animationDelay: `${i * 10}s`,
+            }}
+          >
+            ☁️
+          </div>
+        ))}
+      </div>
+
+      {/* Main Card */}
+      <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-xl text-center relative z-10">
         <h1 className="text-3xl font-bold mb-6 text-pink-700">
           Sanrio Character Matcher
         </h1>
@@ -133,5 +166,3 @@ function App() {
 }
 
 export default App;
-
-
