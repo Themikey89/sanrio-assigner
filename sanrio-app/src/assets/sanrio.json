@@ -72,7 +72,12 @@
         "name": "Pompompurin",
         "description": "A laid-back golden retriever who loves wearing his brown beret and eating pudding.",
         "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Pompompurin.png?raw=true"
-      }
+      },
+      {
+        "name": "Mocha",
+        "description": "The stylish and caring leader of the Cinnamoangels, known for her fashionable taste and charm.",
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Mocha.png?raw=true"
+      }      
     ]
   }
 }
