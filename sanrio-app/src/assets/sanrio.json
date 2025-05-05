@@ -77,7 +77,17 @@
         "name": "Mocha",
         "description": "The stylish and caring leader of the Cinnamoangels, known for her fashionable taste and charm.",
         "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Mocha.png?raw=true"
-      }      
+      },
+      {
+        "name": "Lloromannic",
+        "description": "A mysterious duo from a gothic world—Berry and Cherry—known for their dark charm and playful mischief.",
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Lloromannic.png?raw=true"
+      },
+      {
+        "name": "Tuxedosam",
+        "description": "A dapper and friendly penguin who loves to eat and has a wardrobe full of bow ties.",
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Tuxedosam.png?raw=true"
+      }                  
     ]
   }
 }
