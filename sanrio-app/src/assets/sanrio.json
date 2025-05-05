@@ -9,6 +9,11 @@
         "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Badtz-Maru.png?raw=true"
       },
       {
+        "name": "Gudetama",
+        "description": "A lazy egg with a distinct lack of motivation and a love for lounging around.",
+        "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Gudetama.png?raw=true"
+      },      
+      {
         "name": "Charmmy Kitty",
         "description": "Hello Kitty's pet cat, who is as sweet and well-mannered as her owner.",
         "image": "https://github.com/Themikey89/sanrio-assigner/blob/main/sanrio-app/src/assets/thumbnails/Charmmy_Kitty.png?raw=true"
