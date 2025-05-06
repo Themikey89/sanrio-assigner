@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import sanrioData from "./assets/sanrio.json"; // import the JSON directly
 
 function hashUsernameToIndex(username, maxId) {
@@ -161,6 +162,9 @@ function App() {
           </p>
         )}
       </div>
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }
